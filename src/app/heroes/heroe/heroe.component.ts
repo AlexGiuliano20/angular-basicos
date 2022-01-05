@@ -14,7 +14,6 @@ export class HeroeComponent {
 
   obtenerNombre(): string {
     return `${this.nombre} - ${this.edad}`;
-    // return this.nombre + ' - ' + this.edad.toString();
   }
 
   cambiarNombre(): void {
